@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.container {
+    height: 600px;
+    background-color: lightgray;
+    margin: 10rem auto;
+}
+
+#list {
+    list-style: none;
+    padding: 2rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#new-task-form {
+    padding: 2rem;
+}
+
+i {
+    color: red;
+}
+
+input[type='checkbox'] {
+    margin: 0 1rem;
+}
